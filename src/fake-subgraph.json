@@ -1,0 +1,40 @@
+{
+  "punks": [
+    {
+      "id": "1",
+      "price": 100,
+      "owner": { "id": "0x1234567890abcdef1234567890abcdef12345678" },
+      "mintedBy": { "id": "0xabcdef1234567890abcdef1234567890abcdef12" },
+      "boughtAt": {
+        "amount": 80,
+        "timestamp": "2022-01-01T00:00:00Z"
+      },
+      "currentEthPrice": 120,
+      "currentUsdPrice": 400000
+    },
+    {
+      "id": "2",
+      "price": 150,
+      "owner": { "id": "0xabcdefabcdefabcdefabcdefabcdefabcdef" },
+      "mintedBy": { "id": "0x1234567890123456789012345678901234567890" },
+      "boughtAt": {
+        "amount": 120,
+        "timestamp": "2022-02-01T00:00:00Z"
+      },
+      "currentEthPrice": 180,
+      "currentUsdPrice": 600000
+    },
+    {
+      "id": "3",
+      "price": 150,
+      "owner": { "id": "0xabcdefabcdefabcdefabcdefabcdefabcdef" },
+      "mintedBy": { "id": "0x1234567890123456789012345678901234567890" },
+      "boughtAt": {
+        "amount": 120,
+        "timestamp": "2022-02-01T00:00:00Z"
+      },
+      "currentEthPrice": 180,
+      "currentUsdPrice": 600000
+    }
+  ]
+}

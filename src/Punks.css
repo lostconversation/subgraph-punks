@@ -1,14 +1,4 @@
 /* src/Punks.css */
-body {
-  background-color: rgb(20, 6, 43);
-  color: rgb(140, 137, 180);
-  padding: 20px;
-  text-align: center;
-  cursor: default !important;
-}
-label {
-  margin: 10px;
-}
 .punks-container {
   display: flex;
   flex-direction: column;
@@ -18,32 +8,19 @@ label {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 
 .punk {
-  border: 1px solid #362851;
+  border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
-  max-width: 650px;
-  min-width: 300px;
-}
-.bright {
-  color: white;
-}
-.smol {
-  font-size: 0.7em;
-}
-.big {
-  font-size: 2em;
-  margin: 0;
 }
 
 .punk img {
   width: 100%;
   height: auto;
-  image-rendering: pixelated;
 }
 
 .info-column {
